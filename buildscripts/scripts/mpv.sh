@@ -22,7 +22,7 @@ meson setup $build --cross-file "$prefix_dir"/crossfile.txt \
 	-Dgpl=false \
 	-Dlibmpv=true \
  	-Dcplayer=false \
- 	-Dlua=disabled \
+ 	-Dlua=enabled \
 	-Diconv=disabled \
 	-Djavascript=disabled \
  	-Dmanpage-build=disabled

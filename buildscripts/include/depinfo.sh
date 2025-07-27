@@ -6,6 +6,7 @@ v_sdk=11076708_latest
 v_ndk=27.1.12297006
 v_sdk_build_tools=35.0.0
 
+v_lua=5.2.4
 v_libass=0.17.3
 v_harfbuzz=10.0.1
 v_fribidi=1.0.16
@@ -40,7 +41,7 @@ dep_lua=()
 dep_shaderc=()
 dep_libplacebo=()
 if [ -n "$ENCODERS_GPL" ]; then
-	dep_mpv=(ffmpeg libass libplacebo fftools_ffi)
+	dep_mpv=(ffmpeg libass lua libplacebo fftools_ffi)
 else
-	dep_mpv=(ffmpeg libass libplacebo)
+	dep_mpv=(ffmpeg libass lua libplacebo)
 fi
