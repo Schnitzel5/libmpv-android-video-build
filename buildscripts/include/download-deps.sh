@@ -52,6 +52,9 @@ HEREDOC
 # libplacebo
 [ ! -d libplacebo ] && git clone --depth 1 --branch v$v_libplacebo --recurse-submodules https://code.videolan.org/videolan/libplacebo.git libplacebo
 
+# mujs
+[ ! -d mujs ] && $WGET https://mujs.com/downloads/mujs-${$v_mujs}.tar.gz && tar -xf mujs-${v_libogg}.tar.gz && mv mujs-${v_libogg} mujs && rm mujs-${v_libogg}.tar.gz
+
 # mpv
 [ ! -d mpv ]  && git clone --depth 1 --branch v$v_mpv https://github.com/mpv-player/mpv.git mpv
 

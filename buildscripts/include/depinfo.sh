@@ -6,6 +6,7 @@ v_sdk=11076708_latest
 v_ndk=27.1.12297006
 v_sdk_build_tools=35.0.0
 
+v_mujs=1.3.7
 v_libass=0.17.3
 v_harfbuzz=10.0.1
 v_fribidi=1.0.16
