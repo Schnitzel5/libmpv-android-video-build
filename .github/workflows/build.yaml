@@ -44,8 +44,8 @@ jobs:
       - uses: softprops/action-gh-release@v1
         if: github.ref == 'refs/heads/main'
         with:
-          draft: true
-          prerelease: false
-          tag_name: "vnext"
+          draft: false
+          prerelease: true
+          tag_name: "novulkan"
           files: |
             buildscripts/*.jar

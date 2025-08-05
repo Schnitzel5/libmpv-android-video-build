@@ -24,6 +24,8 @@ meson setup $build --cross-file "$prefix_dir"/crossfile.txt \
  	-Dcplayer=false \
  	-Dlua=enabled \
 	-Diconv=disabled \
+	-Dvulkan=disabled \
+	-Dlibplacebo=disabled \
 	-Djavascript=disabled \
  	-Dmanpage-build=disabled
 
