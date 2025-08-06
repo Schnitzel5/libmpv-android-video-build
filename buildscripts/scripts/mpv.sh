@@ -21,10 +21,11 @@ meson setup $build --cross-file "$prefix_dir"/crossfile.txt \
 	--default-library shared \
 	-Dgpl=false \
 	-Dlibmpv=true \
- 	-Dcplayer=false \
  	-Dlua=enabled \
+ 	-Dcplayer=false \
 	-Diconv=disabled \
-	-Djavascript=disabled \
+	-Dvulkan=disabled \
+   	-Dlibplacebo=disabled \
  	-Dmanpage-build=disabled
 
 ninja -C $build -j$cores
