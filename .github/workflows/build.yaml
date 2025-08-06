@@ -46,6 +46,6 @@ jobs:
         with:
           draft: false
           prerelease: true
-          tag_name: "0.40.0"
+          tag_name: "0.38.0"
           files: |
             buildscripts/*.jar
